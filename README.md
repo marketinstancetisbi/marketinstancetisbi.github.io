@@ -1,1 +1,0 @@
-# marketinstancetisbi.github.io
