@@ -1,0 +1,761 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+*{
+	margin :0;
+	padding: 0; 
+}
+.class {
+  background:  url(pictures/ff2.png)  no-repeat ; 
+  height:100%;
+  width: 100%;
+  position: relative;
+  
+}
+.obert .redV {
+	width:960px;
+	height:60px;
+	background-color: red;
+	position: relative;
+	z-index: 2;
+}
+.class .redV a .profile{
+	position:absolute;		
+	top:10px;
+	right:10px;
+}
+
+.class .redV a:hover{
+	transform: scale(1.02);
+}
+.class .redV a p{
+	position: absolute;
+	right:50px;
+	color:white;
+	top:21px;
+}
+
+.class .redV a{
+position: absolute;
+width:170px;
+height:100%;
+right:0px;
+top:0;
+background-color:#870707;
+}
+
+.class .redV .logo{
+	position: absolute;
+	top:7px;
+	left: 70px;
+}
+.class .whiteV{
+	position: relative;
+
+	width: 960px;
+	height: 60px;
+	background-color:white;
+}
+
+.obert{
+	position: relative;
+	margin:0 auto;
+	width: 960px;
+	top:15px;
+}
+
+.whiteV .merchTisbi{
+		position: absolute;
+	top:15px;
+	left: 70px;
+}
+.whiteV a .cart{
+position: absolute;
+top:5px;
+right:170px;
+margin: 5px;padding: 5px;
+border:2px solid red;
+}
+.whiteV a .sum{
+	position: absolute;
+	top:11px;
+	right:40px;
+	color:black;
+}
+.whiteV a .rub{
+	position: absolute;
+	top:11px;
+	right:40px;
+	top:30px;
+	color:black;
+}
+
+.kat{
+	position: relative;
+	width: 960px;
+	height: 990px;
+	top:284px;
+	padding: 5px;
+	border:2px solid #cecece;
+	margin:0 auto;
+
+}
+.kat .NamKat{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 963px;
+	height: 32px;
+	padding: 2px;
+	border:2px solid #cecece;
+}
+.kat .NamKat .pram1{
+	position: absolute;
+	height: 5px;
+	top: 5px;
+	left:8px;
+}
+.kat .NamKat .pram2{
+	position: absolute;
+	height: 5px;
+	top:14px;
+	left:8px;
+}
+.kat .NamKat .pram3{
+	position: absolute;
+	height: 5px;
+	top: 23px;
+	left:8px;
+}
+.kat .NamKat .text{
+	position: absolute;
+	left:38px;
+	top:5px;
+	font-size: x-large;
+}
+
+.kat .NamKat .text a{
+	text-decoration: none;
+	color:black;
+}
+
+.kat .poisk{
+	position:absolute;
+	left:0px;
+	top:38px;
+	width:240px;
+	height: 64px;
+	padding: 2px;
+	border:2px solid #cecece;
+}
+
+.kat .poisk input{
+	position:absolute;
+	top:15px;
+	height:24px;
+	width:165px;
+	left:14px;
+	padding: 2px;
+	border:2px solid #cecece;
+
+}
+.kat .poisk button{
+	position:absolute;
+	top:15px;
+	height:32px;
+	left:187px;
+	padding: 2px;
+	cursor: pointer;
+	border:2px solid #cecece;
+	background-color: #f2f1f1
+}
+
+.kat .Category{
+	position: absolute;
+	top:95px;
+	left:0px;
+	width:240px;
+	height:898px;
+	padding:2px;
+	border:2px solid #cecece;
+	background-color: #f2f1f1
+}
+.kat .Category .K{
+	position: absolute;
+	top:13px;
+	left:47px;
+	font-size:22px;
+}
+.kat .Category .Sh a{
+	top:57px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+.kat .Category .H a{
+	top:88px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .S a{
+	top:119px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .F a{
+	top:150px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+.kat .Category .Be a{
+	top:181px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .M a{
+	top:212px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .Bo a{
+	top:243px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .R a{
+	top:274px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .Sh a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .H a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .S a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .F a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .Be a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .M a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .Bo a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .R a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+
+.kat .Category .line1{
+	top:82px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line2{
+	top:113px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line3{
+	top:144px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line4{
+	top:175px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line5{
+	top:206px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line6{
+	top:237px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line7{
+	top:268px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line8{
+	top:299px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+
+.kat .blokPik {
+	top:38px;
+	position: absolute;
+	left:247px;
+	height:573px;
+	width: 717px;
+	padding:2px;
+	border:2px solid #cecece;
+}
+
+.kat .blokPik .picture{
+	top:-2px;
+	position: absolute;
+	left:-2px;
+	margin: :2px;
+	border:2px solid #cecece;
+	width: 364px;
+	height: 462px;
+}
+.kat .blokPik .picture .hudiBlack{
+position:absolute;
+left:60px;
+top:30px;
+}
+.kat .blokPik .picture .redSale{
+	position:absolute;
+	width:110px;
+	height:32px;
+	left:245px;
+	top:421px;
+	background-color:red;
+}
+.kat .blokPik .picture .redSale p{
+	position:absolute;
+	color:white;
+	font-size:18px;
+	top:6px;
+	left:18px;
+}
+.kat .blokPik h1{
+	position:absolute;
+	left: 386px;
+	top:30px;
+	font-size: 25px;
+}
+.kat .blokPik .razm{
+	position:absolute;
+	left: 386px;
+	top:66px;
+	font-size: 18px;
+	color: #870707;
+}
+.kat .blokPik .razmXS{
+	right:303px;
+	top:95px;
+	position:absolute;
+	width: 27px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+}
+
+
+.kat .blokPik .razmXS p{
+	position: absolute;
+	top:6px;
+	left:6px;
+	color:#404040;
+}
+.kat .blokPik .razmS{
+	right:260px;
+	top:95px;
+	position:absolute;
+	width: 27px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+}
+.kat .blokPik .razmS p{
+	position: absolute;
+	top:6px;
+	left:11px;
+	color:#404040;
+}
+.kat .blokPik .razmM{
+	right:217px;
+	top:95px;
+	position:absolute;
+	width: 27px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+}
+.kat .blokPik .razmM p{
+	position: absolute;
+	top:6px;
+	left:9px;
+	color:#404040;
+}
+.kat .blokPik .razmL{
+	right:174px;
+	top:95px;
+	position:absolute;
+	width: 27px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+
+}
+.kat .blokPik .razmL p{
+	position: absolute;
+	top:6px;
+	left:11px;
+	color:#404040;
+}
+.kat .blokPik .razmXL{
+	right:131px;
+	top:95px;
+	position:absolute;
+	width: 27px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+}
+.kat .blokPik .razmXL p{
+	position: absolute;
+	top:6px;
+	left:6px;
+	color:#404040;
+}
+.kat .blokPik .razmXXL{
+	right:83px;
+	top:95px;
+	position:absolute;
+	width: 32px;
+	height: 27px;
+	padding: 2px;
+	border:2px solid #cecece;
+	cursor: pointer;
+}
+.kat .blokPik .razmXXL p{
+	position: absolute;
+	top:6px;
+	left:4px;
+	color:#404040;
+}
+.kat .blokPik .cvet{
+	position:absolute;
+	left: 386px;
+	top:137px;
+	font-size: 18px;
+}
+.kat .blokPik .nal{
+	position: absolute;
+	width: 130px;
+	height:33px;
+	top:170px;
+	left:384px;
+	padding: 2px;
+	border:2px solid #cecece; 
+	background-color:#f6f6f6; 
+}
+.kat .blokPik .nal p{
+	position: absolute;
+	left:12px;
+	top:7px;
+	font-size: 20px;
+}
+.kat .blokPik .opisan{
+	position:absolute;
+	left: 386px;
+	top:222px;
+	font-size: 18px;
+}
+.kat .blokPik .textO{
+	position:absolute;
+	left: 386px;
+	top:251px;
+	font-size: 18px;
+}
+.kat .blokPik .DobKorz{
+	position:absolute;
+	width:175px;
+	height:32px;
+	right :21px;
+	top:421px;
+	background-color:#870707;
+}
+.kat .blokPik .DobKorz p{
+	position:absolute;
+	left:7px;
+	top:6px;
+	font-size: 18px;
+	color:white;
+}
+.kat .SmTak{
+	position: absolute;
+	width: 718px;
+	height: 62px;
+	top:617px;
+	right: -2px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .SmTak p{
+	position: absolute;
+	font-size: 25px;
+	top:19px;
+	left:270px;
+}
+.kat .rec1{
+	position: absolute;
+	top:685px;
+	width:237px;
+	height:303px;
+	left:246px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec2{
+	position: absolute;
+	top:685px;
+	width:232px;
+	height:303px;
+	left:489px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec3{
+	position: absolute;
+	top:685px;
+	width:236px;
+	height:303px;
+	right:-1px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec1 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec2 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec3 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec1 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec2 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec3 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec1 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec2 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec3 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec1 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec2 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec3 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+footer {
+	background:  url(pictures/footerFon.png)  no-repeat ; 
+  height:100vh ;
+  width: 100%;
+  position:relative; 
+	padding: 0;
+	top:200px;
+}
+footer .foot{
+	position: relative;
+	height: 100px;
+	margin:0 auto;
+	width: 960px;
+	top:435px;
+}
+footer .foot .O_Nas a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:10px;
+	font-size: 30px;
+}
+footer .foot .Sotrud a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:150px;
+	font-size: 30px;
+}
+
+footer .foot .FAQ a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:500px;
+	font-size: 30px;
+}
+footer .foot .Kontact a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:630px;
+	font-size: 30px;
+}
+footer .foot .VK{
+	bottom:22px;
+	position: absolute;
+	left:820px;
+}
+footer .foot .INS{
+	bottom:22px;
+	position: absolute;
+	right:20px;
+}
+footer .foot .INS:hover{
+	transform: scale(1.07);
+}
+footer .foot .VK:hover{
+	transform: scale(1.07);
+}
+footer .foot .Kontact a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .FAQ a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .Sotrud a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .O_Nas a p:hover{
+	transform: scale(1.07);
+}

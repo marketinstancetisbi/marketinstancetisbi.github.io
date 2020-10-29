@@ -1,0 +1,848 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+*{
+	margin :0;
+	padding: 0; 
+}
+.MainForm{
+  background:  url(pictures/headerFon.png)  no-repeat ;
+  height:100%;
+  width: 100%;
+  position: relative;  
+}
+.Verh{
+    position: relative;
+	margin:0 auto;
+	width: 960px;
+	top:15px;
+}
+.Verh .redV{
+	width:960px;
+	height:60px;
+	background-color: red;
+	position: relative;
+	z-index: 2;
+}
+.Verh .whiteV{
+    position: relative;
+	width: 960px;
+	height: 60px;
+	background-color:white;
+}
+.Verh .redV .logo{
+	position: absolute;
+	top:7px;
+	left: 70px;
+}
+.Verh .redV a{
+position: absolute;
+width:170px;
+height:100%;
+right:0px;
+top:0;
+background-color:#870707;
+}
+
+.Verh .redV a:hover{
+	transform: scale(1.02);
+}
+
+.Verh .redV a .profile{
+	position:absolute;		
+	top:10px;
+	right:10px;
+}
+.Verh .redV a p{
+		position: absolute;
+	right:50px;
+	color:white;
+	top:21px;
+}
+.Verh .whiteV .merchTisbi{
+	position: absolute;
+	top:15px;
+	left: 70px;
+}
+.Verh .whiteV .cart{
+position: absolute;
+top:5px;
+right:170px;
+margin: 5px;padding: 5px;
+border:2px solid red;
+}
+.Verh .whiteV .sum{
+	position: absolute;
+	top:11px;
+	right:40px;
+	color:black;
+}
+.Verh .whiteV .rub{
+	position: absolute;
+	top:11px;
+	right:40px;
+	top:30px;
+	color:black;
+}
+
+
+.slider{
+	width: 960px;
+	height:400px;
+	overflow: hidden;
+	
+}
+
+.middle {
+    position: relative;
+	margin:0 auto;
+	width: 960px;
+	top:100px;
+	tranform:translate(-50%,-50%);
+
+}
+
+.navigation{
+	position: absolute;
+	transform: translateX(-50%);
+	display:flex;
+	bottom:16px;
+	left:50%;
+}
+.bar{
+	bottom:10px;
+	left:300px;
+	height: 8px;
+	width: 30px;
+	margin: 6px;
+	cursor: pointer;
+	background-color:#ddd; 
+	border-radius: 10px;
+	transition: all .4s ease;
+}
+.bar:hover{
+	opacity: 0.8;
+	transform: scale(1.1);
+}
+input[name = "r"]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.slides{
+	width:200%;
+	height: 100%;
+	display:flex;
+}
+.slide{
+	width: 50%;
+	transition: all .6s ease;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+}
+
+#r1:checked ~ .s1{
+	margin-left: 0;
+}
+#r2:checked ~ .s1{
+	margin-left: -50%;
+}
+
+.MainForm .kat{
+	position: relative;
+	width: 960px;
+	height: 964px;
+	top:220px;
+	padding: 5px;
+	border:2px solid #cecece;
+	margin:0 auto;
+}
+.kat .poisk{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:240px;
+	height: 64px;
+	padding: 2px;
+	border:2px solid #cecece;
+}
+.kat .poisk input{
+	position:absolute;
+	top:15px;
+	height:24px;
+	width:165px;
+	left:14px;
+	padding: 2px;
+	border:2px solid #cecece;
+
+}
+.kat .poisk button{
+	position:absolute;
+	top:15px;
+	height:32px;
+	left:187px;
+	padding: 2px;
+	cursor: pointer;
+	border:2px solid #cecece;
+	background-color: #f2f1f1
+}
+.kat .Category{
+	position: absolute;
+	top:70px;
+	left:0px;
+	width:240px;
+	height:898px;
+	padding:2px;
+	border:2px solid #cecece;
+	background-color: #f2f1f1
+}
+.kat .Category .K{
+	position: absolute;
+	top:13px;
+	left:47px;
+	font-size:22px;
+}
+.kat .Category .Sh a{
+	top:57px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .Sh a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .H a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .S a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .F a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .Be a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .M a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .Bo a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+.kat .Category .R a:hover{
+	color:blue;
+	transform: scale(1.1); 
+}
+
+
+
+.kat .Category .H a{
+	top:88px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .S a{
+	top:119px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .F a{
+	top:150px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+.kat .Category .Be a{
+	top:181px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .M a{
+	top:212px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .Bo a{
+	top:243px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .R a{
+	top:274px;
+	position: absolute;
+	left:47px;
+	font-size:18px;
+	color:#585858;
+	text-decoration: none;
+}
+
+.kat .Category .line1{
+	top:82px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line2{
+	top:113px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line3{
+	top:144px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line4{
+	top:175px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line5{
+	top:206px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line6{
+	top:237px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line7{
+	top:268px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .Category .line8{
+	top:299px;
+	position: absolute;
+	left:15px;
+	height: 1px;
+	width: 187px;
+	background-color:#585858;
+}
+.kat .rec1 a{
+	position: absolute;
+	top:0px;
+	width:237px;
+	height:303px;
+	left:246px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec2{
+	position: absolute;
+	top:0px;
+	width:232px;
+	height:303px;
+	left:489px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec3{
+	position: absolute;
+	top:0px;
+	width:236px;
+	height:303px;
+	right:-1px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec4{
+	position: absolute;
+	top:309px;
+	width:237px;
+	height:303px;
+	left:246px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec5{
+	position: absolute;
+	top:309px;
+	width:232px;
+	height:303px;
+	left:489px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec6{
+	position: absolute;
+	top:309px;
+	width:236px;
+	height:303px;
+	right:-1px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec7{
+	position: absolute;
+	top:618px;
+	width:237px;
+	height:303px;
+	left:246px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec8{
+	position: absolute;
+	top:618px;
+	width:232px;
+	height:303px;
+	left:489px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec9{
+	position: absolute;
+	top:618px;
+	width:236px;
+	height:303px;
+	right:-1px;
+	padding: 2px;
+	border: 2px solid #cecece;
+}
+.kat .rec1 a .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+
+.kat .rec1 a .ris img{
+	position: absolute;
+	width: 100%;
+	height:100%;
+}
+
+.kat .rec2 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec3 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec1 a .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+color:black;
+}
+
+.kat .rec1 a:hover{
+	transform: scale(1.02);
+	border: 0;
+}
+
+.kat .rec2 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec3 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec1 a .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec2 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec3 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec1 a .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec2 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec3 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}.kat .rec4 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec5 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec6 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec4 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec5 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec6 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec4 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec5 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec6 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec4 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec5 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec6 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+
+.kat .rec7 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec8 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec9 .ris{
+	position: absolute;
+	left:20px;
+	padding: 2px;
+	border: 14px solid #cecece;
+	width: 170px;
+	height: 195px;
+	top:28px;
+}
+.kat .rec7 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec8 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec9 .Nadpis{
+position: absolute;
+left:24px;
+bottom: 33px;
+font-size:13px;
+}
+.kat .rec7 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec8 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec9 .redSale{
+position: absolute;
+width: 80px;
+height: 23px;
+bottom: 4px;
+right: 9px;
+background-color: #c60e0e;
+}
+.kat .rec7 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec8 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .rec9 .redSale p{
+	position: absolute;
+	top:4px;
+	left: 10px;
+	font-size: 14px; 
+	color:white;
+}
+.kat .Three p{
+	position:absolute;
+	bottom:8px;
+	font-size:23px;
+	right:336px;
+	color:black;
+}
+.kat .Two p{
+	position:absolute;
+	bottom:8px;
+	font-size:23px;
+	right:355px;
+	color:black;
+}
+.kat .One p{
+	position:absolute;
+	bottom:8px;
+	font-size:23px;
+	right:376px;
+	color:black;
+}
+.kat .One p:hover{
+	transform: scale(1.07);
+}
+.kat .Two p:hover{
+	transform: scale(1.07);
+}
+.kat .Three p:hover{
+	transform: scale(1.07);
+}
+
+
+
+footer{
+	background:  url(pictures/footerFon.png)  no-repeat ; 
+  height:100vh ;
+  width: 100%;
+  position:relative; 
+  	margin :0;
+	padding: 0;
+	top:200px; 
+}
+footer .foot{
+	position: relative;
+	height: 100px;
+	margin:0 auto;
+	width: 960px;
+	top:435px;
+}
+footer .foot .O_Nas a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:10px;
+	font-size: 30px;
+}
+footer .foot .Sotrud a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:150px;
+	font-size: 30px;
+}
+
+footer .foot .FAQ a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:500px;
+	font-size: 30px;
+}
+footer .foot .Kontact a p{
+	bottom:30px;
+	position: absolute;
+	color:white;
+	left:630px;
+	font-size: 30px;
+}
+footer .foot .VK{
+	bottom:22px;
+	position: absolute;
+	left:820px;
+}
+footer .foot .INS{
+	bottom:22px;
+	position: absolute;
+	right:20px;
+}
+footer .foot .INS:hover{
+	transform: scale(1.07);
+}
+footer .foot .VK:hover{
+	transform: scale(1.07);
+}
+footer .foot .Kontact a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .FAQ a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .Sotrud a p:hover{
+	transform: scale(1.07);
+}
+footer .foot .O_Nas a p:hover{
+	transform: scale(1.07);
+}
